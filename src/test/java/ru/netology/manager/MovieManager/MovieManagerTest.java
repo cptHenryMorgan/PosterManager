@@ -75,10 +75,8 @@ class MovieManagerTest {
         manager.addMovie("Fast & Furious 8");
         manager.addMovie("Fast & Furious 9");
         manager.addMovie("Fast & Furious 10");
-        manager.addMovie("Fast & Furious 11");
-        manager.addMovie("Fast & Furious 12");
 
-        String[] expected = {"Fast & Furious 12", "Fast & Furious 11", "Fast & Furious 10", "Fast & Furious 9",
+        String[] expected = {"Fast & Furious 10", "Fast & Furious 9",
                 "Fast & Furious 8", "Fast & Furious 7", "Fast & Furious 6", "Fast & Furious 5", "Fast & Furious 4",
                 "Fast & Furious 3", "Fast & Furious 2", "Fast & Furious 1"};
         String [] actual = manager.findLast();
